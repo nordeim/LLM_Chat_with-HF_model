@@ -8,11 +8,12 @@ python3 hf_chat_gemini-v6.py
 ![image](https://github.com/user-attachments/assets/2063f37b-6769-4a22-99c7-312933d1b4ee)
 
 ```
-python3 hf_chat_copilot-v3.py
+python3 hf_chat_copilot-v4.py
 ```  
 ![image](https://github.com/user-attachments/assets/9fb57a02-d6b0-4c00-a7fb-22cedb34f0e9)
 
-$ python3 hf_chat_copilot-v3.py
+**error:** Error generating response: 'NoneType' object is not callable  
+$ python3 hf_chat_copilot-v4.py
 * Running on local URL:  http://127.0.0.1:7860
 
 To create a public link, set `share=True` in `launch()`.
