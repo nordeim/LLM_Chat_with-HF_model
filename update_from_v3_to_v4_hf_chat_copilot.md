@@ -43,3 +43,8 @@ These changes:
 5. Preserve all other functionality while enhancing user experience
 
 **Note**: The changes are minimal but strategic, focusing on improving user guidance and model selection while maintaining the core functionality.
+
+---
+```
+help me to carefully format the following text nicely using markdown while not changing the content in any way:
+```
