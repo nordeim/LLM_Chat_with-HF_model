@@ -1,5 +1,5 @@
 import gradio as gr
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModel, AutoTokenizer
 import torch
 
 def chat_with_model(message, history, model_name, image_file):
@@ -23,7 +23,7 @@ def chat_with_model(message, history, model_name, image_file):
 
     try:
         tokenizer = AutoTokenizer.from_pretrained(model_name)
-        model = AutoModelForCausalLM.from_pretrained(model_name)
+        model = AutoModel.from_pretrained(model_name) # Changed AutoModelForCausalLM to AutoModel
     except Exception as e:
         error_message = f"Error loading model: {e}. Please check the model name and your internet connection."
         history.append((message, error_message)) # Append user message and error
